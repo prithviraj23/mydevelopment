@@ -17,6 +17,7 @@ How to activate the custom skills created for this workspace. All of them live a
 | Data Scientist (Marketing Science) | `/data-scientist` | Media Mix Modelling (pymc-marketing default) and Customer Lifetime Value; ad spend, attribution, ROI, LTV/CAC, churn economics, RFM |
 | Model Validation | `/model-validation` | Model evaluation and testing — splits, leakage, cross-validation, metrics, calibration, backtesting, and production drift monitoring/retraining triggers |
 | Python Backend Tester | `/python-backend-tester` | Backend test suites — pytest design, fixtures, mocking boundaries, FastAPI/Flask test clients, PostgreSQL integration tests with isolation |
+| Python Data Engineer | `/python-data-engineer` | Data pipelines for B2B SaaS on Azure — batch/streaming ELT, multi-tenant data models, event ingestion, usage metering, ADLS Gen2/Event Hubs/Functions/Key Vault |
 
 ## Combining skills
 
@@ -40,7 +41,8 @@ Typical pairings:
 ├── postgresql-developer/SKILL.md
 ├── data-scientist/            # SKILL.md + references/mmm.md, references/cltv.md
 ├── model-validation/SKILL.md
-└── python-backend-tester/SKILL.md
+├── python-backend-tester/SKILL.md
+└── python-data-engineer/          # SKILL.md + references/azure.md
 ```
 
 Project-level skills can also live in `<project>/.zcode/skills/` or `<project>/.agents/skills/`; same-name skills there **override** the user-level ones during discovery.
